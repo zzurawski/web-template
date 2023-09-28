@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ApolloClient, ApolloProvider, InMemoryCache, createHttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
-import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/footer/footer";
+import Home from "./pages/Home";
+import Nav from "./componenents/Nav/Nav";
+import Footer from "./componenents/Footer/Footer";
 import Contact from "./pages/Contact";
 import Social from "./pages/Social";
 import Web from "./pages/Web";
@@ -33,7 +33,7 @@ function App() {
     return (
         <ApolloProvider client={client}>
             <Router>
-                <Navbar />
+                <Nav />
                 <Routes>
                     <Route path={"/"} element={<Home />} />
                     <Route path={"/social"} element={<Social />} />
