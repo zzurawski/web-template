@@ -1,0 +1,29 @@
+.ui.menu {
+    background: #000000;
+    z-index: 1030;
+    position: fixed;
+    font-size: large;
+  }
+
+  .nav {
+    height: fit-content;
+    font-family: 'Arial Narrow';
+  }
+  
+  #home, #socialmedia, #webdesign, #contact{
+    background-color: #000000;
+    color: rgb(200, 0, 0);
+    transition: 2s;
+    font-size: larger;
+    padding: 0%;
+    letter-spacing: 0;
+    font-family: 'Arial Narrow';
+  }
+  
+  #home:hover, #socialmedia:hover, #webdesign:hover, #contact:hover{
+    background-color: rgb(200, 0, 0);
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
