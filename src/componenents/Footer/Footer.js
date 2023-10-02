@@ -1,11 +1,11 @@
 import React from "react";
-import './footer.css';
+import './Footer.css';
 
 export default function Footer() {
     return (
         <div className="footer">
             <div className="footer-logo">
-                <img alt="Z-SQUARED WEB DESIGN" src={require('../images/')} className="logo-image"/>
+                
             </div>
 
             <div className="social-media-links">
